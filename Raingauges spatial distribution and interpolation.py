@@ -18,5 +18,5 @@ from scipy.interpolate import griddata # usaremos la función griddata de la lib
 >>> #generate the desired grid, where rainfall is to be interpolated
 >>> X,Y = np.meshgrid(np.linspace(0,1,1000), np.linspace(0,1,1000)) #usaremos la función meshgrid de la librería numpy
 >>>
->>> #perform the gridding
+>>> #generamos el elemento grillado de interpolación
 >>> grid_rain = griddata((x,y), rain, (X, Y))

@@ -25,6 +25,6 @@ while epsilon > 1e-4:
 #Ahora graficamos
 import matplotlib.pyplot as plt
 plt.plot(F,'-ok')
-plt.xlabel('Number of iteration',fontsize=25)
+plt.xlabel('número de iteraciones',fontsize=25)
 plt.ylabel('F',fontsize=20)
 plt.savefig('F.png')

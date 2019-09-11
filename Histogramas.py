@@ -14,7 +14,7 @@ fechas=(dt.date.today()-dt.timedelta(5))+dt.timedelta(1)*np.arange(5)
 plt.axes((0.1, 0.3, 0.8, 0.6)) 
 plt.bar(np.arange(5), prima)
 plt.ylim(550,650)
-plt.title('prima de riesgo’)
+plt.title('prima de riesgo')
 plt.xticks(np.arange(5), fechas, rotation = 45)
 
 

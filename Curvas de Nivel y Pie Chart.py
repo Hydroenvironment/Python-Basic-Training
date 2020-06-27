@@ -10,9 +10,10 @@ paises = [u'España', u'México', 'Chile', 'Argentina’, 'Colombia’,
 explode = [0, 0, 0, 0, 0, 0, 0, 0.2, 0.2, 0, 0]
 plt.pie(visitas, labels = paises, explode = explode)
 plt.title(u'Porcentaje de visitas por país')
+          
 
-
-Ahora nos apoyaremos de plt.contour y plt.contourf: 
+#Gráfico de curvas de nivel
+#Ahora nos apoyaremos de plt.contour y plt.contourf: 
 
 plt.ion()
 x = np.random.rand(20)

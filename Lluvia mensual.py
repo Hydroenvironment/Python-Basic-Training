@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 plt.ion() 
-Import calendar
+import calendar
 dias = [np.array(calendar.mdays)[0:i].sum() + 1 for i in np.arange(12)+1] 
 meses = calendar.month_name[1:13]
 plt.axes([0.1,0.2,0.8,0.65])

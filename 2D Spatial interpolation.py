@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy as sp #debemos de importar scipy
+from scipy.interpolate import Rbf
 
 x = np.random.rand(5)
 y = np.random.rand(5)
 pet = 2+2*np.random.rand(5)
-rbfi = sp.interpolate.Rbf(x, y, pet)
+rbfi =Rbf(x, y, pet)
 
 xi = np.linspace(0,1)
 yi = np.linspace(0,1)

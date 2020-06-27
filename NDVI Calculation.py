@@ -19,6 +19,7 @@ print(projection)
 print(band3.dtype)
 ndvi = (band4-band3)/(band4+band3)
 #En caso hayan divisiones entre cero: "Divide by zero encountered"
+#np.seterr(divide='ignore')
 #mask = (band4+band3)==0
 #ndvi = np.zeros(band3.shape)
 #ndvi[  mask ] = -99
